@@ -1,6 +1,8 @@
 # Solve-App-Store-Review-Problem
 a collection   to solve app store review problem (appstore 审核遇到问题和解决方案的汇总)
 
+[**app审核指南中英文对照版**](http://appstore.icewindtech.com)
+
 
 #问题:ipv6被拒绝
 
