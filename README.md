@@ -1,13 +1,17 @@
-###### Solve-App-Store-Review-Problem
-a collection   to solve app store review problem (appstore 审核遇到问题和解决方案的汇总)
+### Solve-App-Store-Review-Problem
+###a collection   to solve app store review problem (appstore 审核遇到问题和解决方案的汇总)
 
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
 
-本文链接:
 
-#appstore 审核遇到有问题欢迎给我提issue 或者咨询我qq:596201463,我汇总到这,并给出解决方案
+###appstore 审核遇到有问题欢迎给我提issue 或者咨询我qq:596201463,我汇总到这,并给出解决方案
 
-# 敬请右上角Star,你的star是我持续更新的动力,谢谢
+### 敬请右上角Star,你的star是我持续更新的动力,谢谢
+<br>
+#目录:
+##1) 后台定位被拒绝解决方案
+##2) ipv6 被拒绝解决方案
+##3) 广告标示选择被拒绝解决方案
 
 
 |1| 问题描述       | 
