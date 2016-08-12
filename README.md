@@ -9,9 +9,9 @@
 ### 敬请右上角Star,你的star是我持续更新的动力,谢谢
 <br>
 #目录:
-##1) 后台定位被拒绝解决方案
+##1) 后台定位被拒绝的终极解决方案(四种情况来说明)
 ##2) ipv6 被拒绝解决方案
-##3) 广告标示选择被拒绝解决方案
+##3) 广告标示选择错误被拒绝解决方案
 
 
 |1| 问题描述       | 
@@ -27,7 +27,7 @@
 |2| 问题描述:  后台定位被拒     |
 |------------- | ------------- |
 |被<br>拒<br>描<br>述|苹果被拒邮件内容：<br>your app declares support for location in the UIBackgroundModes key in your Info.plist <br>file but still does not declare any features that require persistent location. Apps that declare support for <br>location in the UIBackgroundModes key in your Info.plist file must have features that require persistent location.<br>Next Steps<br>Please revise your app to include features that require the persistent use of real-time <br>location updates while the app is in the background. Please also add the following battery use disclaimer in <br>your Application Description:<br>"Continued use of GPS running in the background can dramatically decrease <br>battery life."<br>If your app does not require persistent real-time location updates, please remove the <br>"location" setting <br>from the UIBackgroundModes key. You may wish to use the significant-change location <br>service or the region <br>monitoring location service if persistent real-time location updates are not required for your app features.   |
-|解<br>决<br>方<br>案| 1)如果你的应用根本不需要使用后台定位,根本不需要定位功能,但是还是在.info.plist 里面添加了 location in the<br> UIBackgroundModes key ,那么在past 里面移除 UIBackgroundModes key 就可以,这中情况较少<br>2)如果你的应用使用了后台定位模式,而且你的应用只需要短暂的获取少数的用户的位置,比如美团,新闻类的应用需要<br>获得当前用户的所在城市,,这种情况没必要使用后台定位,这种情况使用后台定位被拒绝,只需要去掉.plist 的文件中的UIBackgroundModes|
+|解<br>决<br>方<br>案| 1)如果你的应用根本不需要使用后台定位,根本不需要定位功能,但是还是在.info.plist 里面添加了 location in the<br> UIBackgroundModes key ,那么在plist文件里面移除 UIBackgroundModes key 就可以,这中情况较少,新手小白会犯这种错误<br><br>2)如果你的应用使用了后台定位模式,而且你的应用只需要短暂的获取少数的用户的位置,比如美团,新闻类的应用需要<br>获得当前用户的所在城市,,这种情况没必要使用后台定位,这种情况使用后台定位被拒绝,只需要去掉.plist 的文件中的UIBackgroundModes <br><br>3)你的应用真的需要使用后台定位,比如考勤打卡类的应用,需要跟踪货车车司机的实时位置,或者跑步软件之类的应用,那么你不能只是实时获取到用户的无数的定位点传到服务器,而APP没有任何界面展示这些定位数据,这种情况苹果会回复`如果没有使用必要使用后台定位需要移除.plist的UIBackgroundModes key ,如果真的需要后台定位需要more feature(更多细节)`,这些更多细节怎么实现?大家观察appstore 的可以使用后台定位的软件,基本上有一个共同的特点,他们后台定位的数据要么有一个绘制的轨迹,或者有一个界面展示出所有定位的点,具体详情可以参考红圈营销(考勤类的app),他们后台定位的点用tableView 展示出来了,每一个cell就是一个定位的数据,这些数据包含定位的地点(比如北京市天安门2号楼),时间到几分几秒.所以如果你想实现后台定位功能也需要通过表格或者轨迹展示出后台定位的数据,再提交审核的时候告诉苹果那个功能需要后台定位,具体展示后台定位的数据在那个界面,最后需要`Continued use of GPS running in the background can dramatically decrease <br>battery life`加到app描述里面,否则也会被拒绝<br><br>4)如果让用户可以使用后台定位,又不想展示定位数据,就用企业证书发布,企业签名的ipa发布到蒲公英或者fir.im平台,让用户下载,这样就可以绕过苹果的审核,放肆的使用后台定位了,此方法只适合用户量在3W以下的app,超过3W的用户量这么干会被封企业证书,更多企业证书相关的问题参考我的博客:[企业账号科普15问15答和交流](www.jianshu.com/p/33f037e41cfb),我负责维护的另外一个付费的考勤类的app ,为了绕过苹果后台定位审核,另外一个项目比较忙,不想花更多时间在这个付费的考勤类的app上,就是用的企业账号发布的,从此愉快的开启后台定位|
 
 
 
