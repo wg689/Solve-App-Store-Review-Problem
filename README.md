@@ -15,10 +15,12 @@
 ##4) app崩溃(Crash)问题
 
 
+
+
 |1| 问题描述       | 
 | -------------| ------------- |
 |ipv6<br>被<br>拒|**被拒的描述1**:<br>From Apple<br> 2. 1 PERFORMANCE: APP COMPLETENESS<br> 2. 3 PERFORMANCE: ACCURATE METADATA<br> Performance - 2.1 <br> We were unable to review your app as it crashed on launch. We have attached detailed crash logs to help troubleshoot this issue.<br> Next Steps<br> Please revise your app and test it on a device while connected to an IPv6 network (all apps must support IPv6) to ensure it will launch without crashing.<br> Resources<br> For additional information about supporting IPv6 Networks, please refer to Supporting IPv6 DNS64/NAT64 Networks and Supporting IPv6-only Networks.<br> For a networking overview, please see About Networking.<br> For information on how to symbolicate and read a crash log, please see Tech Note TN2151 Understanding and Analyzing iPhone OS Application Crash Reports.<br> If you have difficulty reproducing this issue, please try testing the workflow described in Testing Workflow with Xcode's Archive feature.<br> If you have code-level questions after utilizing the above resources, you may wish to consult with Apple Developer Technical Support. When the DTS engineer follows up with you, please be ready to provide:<br> - complete details of your rejection issue(s)<br> - screenshots<br> - steps to reproduce the issue(s)<br> - symbolicated crash logs - if your issue results in a crash log  <br> <br>**被拒描述2**:<br> We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.<br>At launch, the app crashes or display message as “请检查网络连接”.<br>We've attached screenshot(s) for your reference.<br>Next Steps<br>Please run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review. <br><br>**被拒描述3**<br> We discovered one or more bugs in your app when reviewed on iPad and iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.  Specifically, <br>we were unable to load the video contents. The loading icon kept spinning. No mote further action was taken.  <br>We've attached screenshot(s) for your reference.**被拒的描述4** 发件人 Apple<br>2. 1 PERFORMANCE: APP COMPLETENESS<br>2. 3 PERFORMANCE: ACCURATE METADATA<br>2. 4 PERFORMANCE: HARDWARE COMPATIBILITY<br>4. DESIGN: PREAMBLE<br>Performance - 2.1<br>We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.|
-|解决方案|上面的描述不一样, 解决方案都一样,都需要支持ipv6(**只要苹果拒绝邮件含有ipv6就需要适配ipv6**) <br>1)搭建ipv6 环境,搭建好的ipv6 ,环境会有一个共享wifi, 具体如何搭建ipv6测试环境参考[本地如何搭建IPv6环境测试你的APP](http://www.jianshu.com/p/632d995749e1)<br>2)app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连接网络, 更换相应的模块即可,**让测试人员把所有的模块功能都点一下,最好在搭建好的ipv6下使用iOS9.3.0以上的系统测试,苹果审核使用iOS9.3.0以上的系统审核**,这样就会某些模块网络,其他异常或者崩溃一般需要更换两种模块有两种:<br>  2.1)第三方SDk <br>  2.2)比较老的网络请求函数,比如使用ASI或者AFN的版本太低,使用最新的AFN即可解决问题<br>需要更换那些SDK 可以参考我的博客 [适配IPV6需要替换的第三方SDK](http://www.jianshu.com/p/afc0b19fd5d3)  <br>3)如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.5号左右友盟出了最新的SDk适配ipv6<br> 4)解决ipv6 这篇文章也非常值得参考[App store应用审核由于 IPv6 网络问题被拒的一点分析](http://www.jianshu.com/p/d18ada23f78d) <br>**注意确认:ipv6 搭建连接是否正确 ?所有功能是否在ipv6下都测试了**  |
+|解决方案|上面的描述不一样, 解决方案都一样,都需要支持ipv6(**只要苹果拒绝邮件含有ipv6就需要适配ipv6**) <br>1)搭建ipv6 环境,搭建好的ipv6 ,环境会有一个共享wifi, 具体如何搭建ipv6测试环境参考[本地如何搭建IPv6环境测试你的APP](http://www.jianshu.com/p/632d995749e1)<br>2)app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连接网络, 更换相应的模块即可,**让测试人员把所有的模块功能都点一下,最好在搭建好的ipv6下使用iOS9.3.0以上的系统测试,苹果审核使用iOS9.3.0以上的系统审核**,这样就会某些模块网络,其他异常或者崩溃一般需要更换两种模块有两种:<br>  2.1)第三方SDk <br>  2.2)比较老的网络请求函数,比如使用ASI或者AFN的版本太低,使用最新的AFN即可解决问题<br>需要更换那些SDK 可以参考我的博客 [适配IPV6需要替换的第三方SDK](http://www.jianshu.com/p/afc0b19fd5d3)  <br>3)如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.5号左右友盟出了最新的SDk适配ipv6<br> 4)解决ipv6 这篇文章也非常值得参考[App store应用审核由于 IPv6 网络问题被拒的一点分析](http://www.jianshu.com/p/d18ada23f78d) <br>**注意确认:ipv6 搭建连接是否正确 ?所有功能是否在ipv6下都测试了,app安装在iphon6 以上的机器测试,iphon5 可能连不上ipv6 wifi,搭建ipv6 可以使用mac连接网线和mac连无线,两种方法都可以试试,**  |
 
 
 
@@ -43,7 +45,9 @@
 |被<br>拒描述|苹果被拒邮件内容：被拒的问题是这个5.1.1 大概意思说app不能强制让用户注册登录 但是我们的app就是必须登录后才能查看里面的内容 除了改app本身的代码逻辑之外还有其他的办法吗？谢谢大神们  |
 |解决方案|  |
 
+____
 #📣问题:app崩溃(Crash)问题
+
 **苹果邮件描述**<br>
 Thank you for your response.
 After reviewing your reply, it seems your question would be best addressed by Apple Developer Technical Support , who can provide discrete code-level assistance. (你的问题最好提交给通过苹果工程师解决)
@@ -53,7 +57,15 @@ by:王员外,8824766
 ##解决方案:
 <br>如上英文所述:你的问题最好提交给通过苹果工程师解决,如何联系苹果,网上电话或者邮件,为了更好的保证工程师帮助你,你需要提供崩溃日志,截图,重现问题的步骤,关于如何阅读崩溃日志参考ech Note TN2151 Understanding and Analyzing iPhone OS Application Crash(此文档估计看不懂),如何阅读崩溃日志参考:[iOS崩溃crash大解析](www.jianshu.com/p/1b804426d212)
 
+____
 
+#📣问题:
+
+**苹果邮件描述**<br>
+
+##解决方案:
+
+____
 
 
 
