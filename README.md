@@ -97,12 +97,18 @@ ____
 
 #📣问题:app下载速度很慢的问题啊,我们上线的应用下载好慢?
 
-
 ##解决方案:过段时间就好了,下载量多了就快了
+____
 
 ____
 
+#📣问题:无法选择文件
+![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimage.png)
 
+##解决方案:
+![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimageSolve.png)
+
+____
 ____
 
 #📣问题:
