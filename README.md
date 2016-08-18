@@ -50,13 +50,18 @@ ____
 ____
 
 #📣问题:没有增加耗电的描述
-/Users/hlh/Solve-App-Store-Review-Problem/Picture/电池描述.png
 
 **苹果邮件描述**<br>
-
+![1](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/%E7%94%B5%E6%B1%A0%E6%8F%8F%E8%BF%B0.png)
 
 ##解决方案:
+#1)添加描述的位置
+![添加描述的位置](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/cost%20detail.png)
 
+#2如何描述的例子)
+![如何描述的例子](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/custdetailExample.png)
+#3)需要在plist告诉用户的
+![需要在plist告诉用户的](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/custDetailMiaoshulist.png)
 ____
 
 
