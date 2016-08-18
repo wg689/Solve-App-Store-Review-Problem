@@ -106,9 +106,11 @@ ____
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimage.png)
 
 ##解决方案:
+**删掉重建应用,修改应用bundleid,重新上传,即可提交!qq群网友提供 的解决方案这是一个bug,待苹果修复,**
 
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimageSolve.png)
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannot_select.png)
+
 
 ____
 ____
