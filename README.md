@@ -106,7 +106,9 @@ ____
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimage.png)
 
 ##解决方案:
+
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimageSolve.png)
+![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannot_select.png)
 
 ____
 ____
