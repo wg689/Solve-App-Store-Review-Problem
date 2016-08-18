@@ -14,7 +14,7 @@
 ##3) 问题:没有填写耗电的描述被拒绝
 ##4) 广告标示选择错误被拒绝解决方案
 ##5) app崩溃(Crash)问题
-
+##6) 提交审核无法选择文件
 
 ____
 
@@ -102,7 +102,7 @@ ____
 
 ____
 
-#📣问题:无法选择文件
+#📣问题:提交审核无法选择文件
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimage.png)
 
 ##解决方案:
