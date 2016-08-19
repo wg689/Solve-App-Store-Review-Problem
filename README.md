@@ -38,7 +38,7 @@ ____
  <br>**注意确认:ipv6 搭建连接是否正确 ?所有功能是否在ipv6下都测试了,app安装在iphon6 以上的机器测试,iphon5 可能连不上ipv6 wifi,搭建ipv6 可以使用mac连接网线和mac连无线,两种方法都可以试试,** 
 [ipv6测试](http://test-ipv6.com) 这个连接可以进行ipv6 测试 大家可以试试
 
-如果上面的解决方案还不行,努力尝试过,你觉得适配了ipv6 ,苹果那边说你没适配ipv6,参考这个帅哥的
+如果上面的解决方案还不行,努力尝试过,你觉得适配了ipv6 ,苹果那边说你没适配ipv6,参考这个帅哥的做法,审核的时候给你拒绝说明的英文,这个地方可以回复的,给他们你适配了ipv6的截图甚至视频,视频传到youtoobe,而不是youku
 ![参考这个帅哥的1](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/ipv6_1.png)
 ![参考这个帅哥的2](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/ipv6_2.png)
 
