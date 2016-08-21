@@ -2,7 +2,7 @@
 #上架前认真阅读此指南
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
 **appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝有简单的内容到群,更方便别人帮助解答,:`369250107`(免验证加入)** 
-![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/jiaqun.png)
+![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/jiaqun.jpeg)
 
 
 # 敬请右上角Star,你的star是我持续更新的动力,谢谢
@@ -64,7 +64,7 @@ ____
 
 为了安全起见:可以用VPN，在IPV6下，用美帝的线路访问服务端试一试,有些人在VPN 的情况下的IPV6，无法连接
 
-如果上面的所有方案都不能解决,那么你就需要下面专业的人帮你了!
+如果上面的所有方案都不能解决,那么你就需要下面专业的人帮你了,好像要收费啊 ,不怕找老板出!!!
 [【链接】转给您身边苹果开发者，IPv6被拒如何破？](http://url.cn/2GGkPA5)这是一篇很好的教程!屡次被绝拒绝的,可以看看这篇教程!
 [IPv6解决办法：](http://www.solve6.com) 专门解决ipv6问题的的网站,**6box专门解决ipv6被拒的问题**推荐下
 
