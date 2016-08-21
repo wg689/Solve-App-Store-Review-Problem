@@ -36,7 +36,7 @@ https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98-%E5%9
 [审核][卖商品不想走内购怎么办?(内购被拒绝)](https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98%E5%8D%96%E5%95%86%E5%93%81%E4%B8%8D%E6%83%B3%E8%B5%B0%E5%86%85%E8%B4%AD%E6%80%8E%E4%B9%88%E5%8A%9E%E5%86%85%E8%B4%AD%E8%A2%AB%E6%8B%92%E7%BB%9D
 )
 
-
+[问题][苹果审核通过后包体大了200多MB?怎么回事?](https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98%E8%8B%B9%E6%9E%9C%E5%AE%A1%E6%A0%B8%E9%80%9A%E8%BF%87%E5%90%8E%E5%8C%85%E4%BD%93%E5%A4%A7%E4%BA%86200%E5%A4%9Amb%E6%80%8E%E4%B9%88%E5%9B%9E%E4%BA%8B)
 
 ____
 
