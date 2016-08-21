@@ -1,13 +1,11 @@
- Solve-App-Store-Review-Problem
-###a collection   to solve app store review problem (appstore 审核遇到问题和解决方案的汇总)
+
 #上架前认真阅读此指南
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
+**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝有简单的内容到群,更方便别人帮助解答,:`369250107`(免验证加入)** 
+![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/jiaqun.png)
 
-
-###appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝有简单的内容到群,更方便别人帮助解答,:`369250107`(免验证加入)
 
 # 敬请右上角Star,你的star是我持续更新的动力,谢谢
-<br>
 #目录:
 
 
