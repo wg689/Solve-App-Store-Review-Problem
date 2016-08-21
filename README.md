@@ -1,6 +1,7 @@
 
-#上架前认真阅读此指南
+#上架前认真阅读app审核指南
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
+<br>
 **appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝有简单的内容到群,更方便别人帮助解答,:`369250107`(免验证加入)** 
 <br>
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/jiaqun.jpeg)
