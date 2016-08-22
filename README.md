@@ -4,7 +4,7 @@
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
 <br>另外:被拒绝了不用想着去给苹果打电话,网上的电话打过去是不解决审核问题的,笔者以前打过,审核问题只有他们心情好的时候,给你打电话你接听的份!
 <br>
-**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝的内容到群(类似下面的被拒描述的内容),更方便别人帮助解答,369250107`(star后方可加入😄😄 哈哈)** 
+**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝的内容到群(类似下面的被拒描述的内容),更方便别人帮助解答,369250107`(欢饮加入)** 
 <br>
 ![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/jiaqun.jpeg)
 
