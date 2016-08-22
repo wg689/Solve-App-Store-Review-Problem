@@ -1,3 +1,4 @@
+#ipv6被拒绝,后台定位被拒绝,免费的,终极解决方案
 
 #上架前认真阅读app审核指南
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
