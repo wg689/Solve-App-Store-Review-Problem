@@ -65,7 +65,7 @@ Performance - 2.4.1 We noticed that your app did not run at iPhone resolution 
 <br>如果搭建的过程中试了无数的方法,ipv6访问app服务器访问不了,你需要测试下你的服务器是否支持ipv6,怎么做参考这篇文章[ 简单的理解（已验证，项目已经上线）](www.jianshu.com/p/97b205933c15Ipv6_Only)**
 ###2)app连上搭建好的共享wifi测试你的app,每个界面都点一下!
 app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连接网络, 更换相应的模块即可,**让测试人员把所有的模块功能都点一下,最好在搭建好的ipv6下使用iOS9.3.0以上的系统测试,苹果审核使用iOS9.3.0以上的系统审核**,这样就会某些模块网络出现无法联网的异常或者崩溃,一般需要更换两种模块
-#####-2.1)更换第三方SDk 
+#####2.1)更换第三方SDk 
 需要更换那些SDK 可以参考我的博客 [适配IPV6需要替换的第三方SDK](http://www.jianshu.com/p/afc0b19fd5d3)  
 如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.5号左右友盟出了最新的SDk适配ipv6<br>
 #####2.2)比较老的网络请求函数 
