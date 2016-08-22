@@ -54,7 +54,9 @@ ____
 多找找 如何搭建ipv6的帖子(我第一次搭建看了好几篇帖子,试了好几种方法),如果都不行[这里有很多如何搭建ipv6 的文章](http://www.jianshu.com/search?q=ipv6+%E6%90%AD%E5%BB%BA&page=1&type=notes)
 
 2)app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连接网络, 更换相应的模块即可,**让测试人员把所有的模块功能都点一下,最好在搭建好的ipv6下使用iOS9.3.0以上的系统测试,苹果审核使用iOS9.3.0以上的系统审核**,这样就会某些模块网络,其他异常或者崩溃一般需要更换两种模块有两种:<br>  2.1)第三方SDk <br>  2.2)比较老的网络请求函数,比如使用ASI或者AFN的版本太低,使用最新的AFN即可解决问题<br>需要更换那些SDK 可以参考我的博客 [适配IPV6需要替换的第三方SDK](http://www.jianshu.com/p/afc0b19fd5d3)  
+**2.3)可以测试下你的服务器是否支持ipv6,怎么做参考这篇文章[ 简单的理解（已验证，项目已经上线）](www.jianshu.com/p/97b205933c15Ipv6_Only)**
 <br>3)如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.5号左右友盟出了最新的SDk适配ipv6<br>
+
  4)解决ipv6 这篇文章也非常值得参考[App store应用审核由于 IPv6 网络问题被拒的一点分析](http://www.jianshu.com/p/d18ada23f78d) 
  <br>**注意确认:ipv6 搭建连接是否正确 ?所有功能是否在ipv6下都测试了,app安装在iphon6 以上的机器测试,iphon5 可能连不上ipv6 wifi,搭建ipv6 可以使用mac连接网线和mac连无线,两种方法都可以试试,** 
 [ipv6测试](http://test-ipv6.com) 这个连接可以进行ipv6 测试 大家可以试试
