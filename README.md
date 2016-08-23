@@ -50,14 +50,14 @@ ____
 
 **苹果邮件描述**<br>**被拒的描述1**:<br>From Apple<br> 2. 1 PERFORMANCE: APP COMPLETENESS<br> 2. 3 PERFORMANCE: ACCURATE METADATA<br> Performance - 2.1 <br> We were unable to review your app as it crashed on launch. We have attached detailed crash logs to help troubleshoot this issue.<br> Next Steps<br> Please revise your app and test it on a device while connected to an IPv6 network (all apps must support IPv6) to ensure it will launch without crashing.<br> Resources<br> For additional information about supporting IPv6 Networks, please refer to Supporting IPv6 DNS64/NAT64 Networks and Supporting IPv6-only Networks.<br> For a networking overview, please see About Networking.<br> For information on how to symbolicate and read a crash log, please see Tech Note TN2151 Understanding and Analyzing iPhone OS Application Crash Reports.<br> If you have difficulty reproducing this issue, please try testing the workflow described in Testing Workflow with Xcode's Archive feature.<br> If you have code-level questions after utilizing the above resources, you may wish to consult with Apple Developer Technical Support. When the DTS engineer follows up with you, please be ready to provide:<br> - complete details of your rejection issue(s)<br> - screenshots<br> - steps to reproduce the issue(s)<br> - symbolicated crash logs - if your issue results in a crash log  <br> <br>**被拒描述2**:<br> We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.<br>At launch, the app crashes or display message as “请检查网络连接”.<br>We've attached screenshot(s) for your reference.<br>Next Steps<br>Please run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review. <br><br>**被拒描述3**<br> We discovered one or more bugs in your app when reviewed on iPad and iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.  Specifically, <br>we were unable to load the video contents. The loading icon kept spinning. No mote further action was taken.  <br>We've attached screenshot(s) for your reference.
 <br><br>**被拒的描述4** 发件人 Apple<br>2. 1 PERFORMANCE: APP COMPLETENESS<br>2. 3 PERFORMANCE: ACCURATE METADATA<br>2. 4 PERFORMANCE: HARDWARE COMPATIBILITY<br>4. DESIGN: PREAMBLE<br>Performance - 2.1<br>We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.
-<br><br>**被拒的描述5**.
+<br><br>**被拒的描述5**
 Performance - 2.1
 We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.
-<br><br>**被拒的描述6**....
+<br><br>**被拒的描述6**
 Performance - 2.4.1 We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 9.3.4. Specifically, we were not able to log in from an iPad as an error message displayed. We've attached screenshot(s) for your reference. aNext Steps Please revise your app to ensure it runs and displays properly at iPhone resolution on iPad. Resources For information on iOS device screen sizes and resolutions, please see the iOS Human Interface Guidelines as well as the Points versus Pixels in the View Programming Guide for iOS.
 
 
-<br><br>**被拒的描述7**....** 我见过超过10种描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app **
+**被拒的描述7**....** 我见过超过10种描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app **
 
 
 ##解决方案:
