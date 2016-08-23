@@ -1,8 +1,10 @@
 #ipv6被拒绝,后台定位被拒绝,免费的终极解决方案,大家齐心协力让天下没有解决不了的ipv6问题!
+文中有不妥的欢迎提issue或者去审核问答群找群主反馈,我会重视每一个意见!
+
+最近本仓库被广大网友star,每一个star的网友github账号我都看得到,在此表示谢谢!你们的关注和star我会坚持更新!
 
 #上架前认真阅读app审核指南
-[**app审核指南中英文对照版**](http://appstore.icewindtech.com)
-<br>另外:被拒绝了不用想着去给苹果打电话,网上的电话打过去是不解决审核问题的,笔者以前打过,审核问题只有他们心情好的时候,给你打电话你接听的份!
+[**app审核指南中英文对照版**](http://appstore.icewindtech.com)<br>苹果审核的电话:14089961010,被拒绝了不用想着去给苹果打电话,网上的电话打过去是不解决审核问题的,笔者以前打过,审核问题只有他们心情好的时候,给你打电话你接听,你无法因为被拒了主动联系到苹果审核人员!
 <br>
 **appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝的内容到群(类似下面的被拒描述的内容),更方便别人帮助解答,369250107`(群较活跃,欢迎加入)** 
 <br>
@@ -43,7 +45,8 @@ https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98-%E5%9
 
 ____
 
-#📣问题:ipv6被拒绝(占审核拒绝的75%以上)
+#📣问题:ipv6被拒绝
+(近2个月苹果审核拒绝的app,据笔者估计ipv6占75%以上,内购占10%,其他占15%)
 
 **苹果邮件描述**<br>**被拒的描述1**:<br>From Apple<br> 2. 1 PERFORMANCE: APP COMPLETENESS<br> 2. 3 PERFORMANCE: ACCURATE METADATA<br> Performance - 2.1 <br> We were unable to review your app as it crashed on launch. We have attached detailed crash logs to help troubleshoot this issue.<br> Next Steps<br> Please revise your app and test it on a device while connected to an IPv6 network (all apps must support IPv6) to ensure it will launch without crashing.<br> Resources<br> For additional information about supporting IPv6 Networks, please refer to Supporting IPv6 DNS64/NAT64 Networks and Supporting IPv6-only Networks.<br> For a networking overview, please see About Networking.<br> For information on how to symbolicate and read a crash log, please see Tech Note TN2151 Understanding and Analyzing iPhone OS Application Crash Reports.<br> If you have difficulty reproducing this issue, please try testing the workflow described in Testing Workflow with Xcode's Archive feature.<br> If you have code-level questions after utilizing the above resources, you may wish to consult with Apple Developer Technical Support. When the DTS engineer follows up with you, please be ready to provide:<br> - complete details of your rejection issue(s)<br> - screenshots<br> - steps to reproduce the issue(s)<br> - symbolicated crash logs - if your issue results in a crash log  <br> <br>**被拒描述2**:<br> We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.<br>At launch, the app crashes or display message as “请检查网络连接”.<br>We've attached screenshot(s) for your reference.<br>Next Steps<br>Please run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review. <br><br>**被拒描述3**<br> We discovered one or more bugs in your app when reviewed on iPad and iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.  Specifically, <br>we were unable to load the video contents. The loading icon kept spinning. No mote further action was taken.  <br>We've attached screenshot(s) for your reference.
 <br><br>**被拒的描述4** 发件人 Apple<br>2. 1 PERFORMANCE: APP COMPLETENESS<br>2. 3 PERFORMANCE: ACCURATE METADATA<br>2. 4 PERFORMANCE: HARDWARE COMPATIBILITY<br>4. DESIGN: PREAMBLE<br>Performance - 2.1<br>We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.
@@ -52,34 +55,43 @@ Performance - 2.1
 We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.
 <br><br>**被拒的描述6**....
 Performance - 2.4.1 We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 9.3.4. Specifically, we were not able to log in from an iPad as an error message displayed. We've attached screenshot(s) for your reference. aNext Steps Please revise your app to ensure it runs and displays properly at iPhone resolution on iPad. Resources For information on iOS device screen sizes and resolutions, please see the iOS Human Interface Guidelines as well as the Points versus Pixels in the View Programming Guide for iOS.
-<br><br>**被拒的描述7**....**只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app **
+
+
+<br><br>**被拒的描述7**....** 我见过超过10种描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app **
 
 
 ##解决方案:
+___
 
-解决方案上面的描述不一样, 解决方案都一样,都需要支持ipv6 **只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app ,拒绝邮件没有包含"ipv6"但是告诉你网络加载失败,加载不出来,登录就崩溃等现象,**如被拒描述6所示!为啥?被拒描述6所示:"说在9.3.4下无法连接",最近啥问题会导致一大片的app无法连接?ipv6 啊,既然有无法连接的问题,是不是该检查下ipv6 是否ok?
+解决方案上面的描述不一样, 解决方案都一样,都需要支持ipv6 **只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app ,拒绝邮件没有包含"ipv6"但是告诉你网络加载失败,加载不出来,登录就崩溃等现象,**如被拒描述6所示!为啥?被拒描述6所示:"说在9.3.4下无法连接",最近啥问题会导致一大片的app无法连接?ipv6 啊,既然有无法连接的问题,是不是该检查下ipv6 是否ok?下面告诉你如何检查!
 
 ###1)搭建ipv6 环境
+______
 搭建ipv6 环境,搭建好的ipv6 ,环境会有一个共享wifi, 具体如何搭建ipv6测试环境参考[本地如何搭建IPv6环境测试你的APP](http://www.jianshu.com/p/632d995749e1)<br>**如果搭建ipv6 遇到问题,热点连不上,别人教程的选项我没有怎么办?**
-多找找 如何搭建ipv6的帖子(我第一次搭建看了好几篇帖子,试了好几种方法,搭建ipv6环境需要的网络可以是插的网线,也可以是wifi),如果都不行[这里有很多如何搭建ipv6 的文章](http://www.jianshu.com/search?q=ipv6+%E6%90%AD%E5%BB%BA&page=1&type=notes),你需要做的是注意一些细节问题,比如苹果系统是10.11.5 以上,测试的手机最好不是iphon5 以下,笔者亲测iphone5 连不上ipv6 .
-#####1.1)检查服务器是否支持ipv6
-笔者公司用的阿里云,6.8号以后项目上线,服务器一行代码也没就修改项目照常上线,自己公司搭建的和其他小服务器厂商需要重点关注下,比如拍云以前就不支持,现在支持了
-<br>如果搭建的过程中试了无数的方法,ipv6访问app服务器访问不了,你需要测试下你的服务器是否支持ipv6,怎么验证参考这篇文章http://www.jianshu.com/p/97b205933c15[简单的理解（已验证，项目已经上线）](www.jianshu.com/p/97b205933c15)
+多找找 如何搭建ipv6的帖子(我第一次搭建看了好几篇帖子,试了好几种方法,搭建ipv6环境需要的网络可以是插的网线,也可以是wifi),如果都不行[这里有很多如何搭建ipv6 的文章](http://www.jianshu.com/search?q=ipv6+%E6%90%AD%E5%BB%BA&page=1&type=notes),你需要做的是注意一些细节问题,比如苹果系统是10.11.5 以上,测试的手机最好不是iphon5 以下,笔者亲测iphone5连不上ipv6,是个例还是普遍现象有待进一步考证
+#####1.1)检查服务器是否支持ipv6(这是一个大问题啊)
+笔者公司用的阿里云,6.8号以后项目上线,服务器一行代码也没就修改项目照常上线,自己公司搭建的和其他小服务器厂商需要重点关注下,比如拍云以前就不支持,现在支持了.如果使用第三方服务器请咨询服务器提供商,是否适配ipv6,自己公司的服务器人员需要怎么修改,询问有时候可以快速获得最佳的答案!
+<br>如果搭建的过程中试了无数的方法,ipv6访问app服务器访问不了,你需要测试下你的服务器是否支持ipv6,怎么验证参考这篇文章
+<br>[简单的理解（已验证，项目已经上线）](http://www.jianshu.com/p/97b205933c15),<br>[另外这个网址也可以测试ipv6连接是否正常](http://www.subnetonline.com/pages/ipv6-network-tools/online-ipv6-ping.php),<br>[ipv6测试](http://test-ipv6.com) 这个连接可以进行ipv6 测试 大家可以试试
+#####1.2)服务器不支持ipv6,怎么解决(群里面有部分网友问到)?
+让服务器开发人员修改到上面的测试ipv6通过为止,如果服务器不会修改怎么办?找专业的人员帮忙,有可能需要购买中专服务,本解决方案的花钱找人帮忙部分有介绍.[关于ipv6审核给你点借鉴](http://my.oschina.net/u/872517/blog/728827)此文介绍了一些服务器如何适配ipv6,需要添加aaaa中转,这种中转有付费和免费的,详情见链接原文!
 
 
 ###2)app连上搭建好的共享wifi测试你的app,每个界面都点一下!
+_____
 app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连接网络, 更换相应的模块即可,**让测试人员把所有的模块功能都点一下,最好在搭建好的ipv6下使用iOS9.3.0以上的系统测试,苹果审核使用iOS9.3.0以上的系统审核**,这样就会某些模块网络出现无法联网的异常或者崩溃,一般需要更换两种模块
 #####2.1)更换第三方SDk 
 需要更换那些SDK 可以参考我的博客 [适配IPV6需要替换的第三方SDK](http://www.jianshu.com/p/afc0b19fd5d3)  
-如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.5号左右友盟出了最新的SDk适配ipv6<br>
+如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.1号后,各个SDK提供商(友盟,环信等等)陆续出了最新的SDk适配ipv6<br>
 #####2.2)比较老的网络请求函数 
  比如使用ASI或者AFN的版本太低,使用最新的AFN即可解决问题 
  <br>**注意确认:ipv6 搭建连接是否正确 ?所有功能是否在ipv6下都测试了,app安装在iphon6 以上的机器测试,iphon5 可能连不上ipv6 wifi,搭建ipv6 可以使用mac连接网线和mac连无线,两种方法都可以试试,** 
-[ipv6测试](http://test-ipv6.com) 这个连接可以进行ipv6 测试 大家可以试试
+
 #####2.3)增加通过率的小招-用VPN在美国的线路访问服务端
 理论上上面这些解决方案就足够了,下面的方案不用看了,但是为了通过率再提高提高,实际上上面这些做了还是会有很大的概率被拒绝!为了增加通过率**建议**:用VPN在美国的线路访问服务端试一试,因为有些人在自己搭建的ipv6下可以请求数据,但是在美国的线路访问服务端IPV6无法连接,我知道的有超过5位网友遇到过VPN下美国的线路无法连接服务器,不适用VPN 测试的ipv6 是可以正常连接的.
 
 ###3)ipv6被拒后的补救措施(顺序操作哦)
+____
 如果你的应用已经搭建过ipv6测试环境,那么你就按照下面的方法解决
 <br>
 #####3.1)措施1
@@ -101,11 +113,18 @@ app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连�
 Reply 都可以!
 #####3.3)措施3
 大部分是不需要措施3的,上面的这些做了还是被拒绝怎么办,措施1试过,措施2也试过,还是不管用,我只能建议你继续提交了,stakeoverflow上面有人说,自己测试了都是没问题,怎么苹果还是拒绝,苹果的工程师告诉他你就继续提交吧,这是审核人员的bug,其实这种情况国内的开发者(包括笔者)也遇到过,你明明提供了app的测试账号,他说你没提供,你回复下就好了!他们人工审核也会有失误的时候,只是这个失误被你碰到了!这就是为什么有部分网友啥都没修改,只是在拒绝的描述哪里reply 一下就通过了.
+
+<br>**问题:被拒绝后我是Reply还是重新提交呢**
+<br>Reply:是指在开发者中心的苹果拒绝描述的哪里,可以回复苹果,那里是reply
+重新提交:重新填写版本号,重新填写信息,点击提交以供审核按钮.
+当你修改了应用的内容的时候,比如修改了代码,修改了版本号,必须重新提交,提交最好让版本号增加,提交审核网页的中间部分还需要选择你上传的ipa,如果没做任何修改就Reply 一下.
+
 ###4)花钱找人帮忙(对ipv6无计可适的时候可以考虑)
+____
 如果上面的的方案都不能解决,那么你就需要下面专业的人帮你了,好像要收费啊,收费好,既然收了你的钱,人家肯定得有技术支持教你怎么适配吧,当免费方案都不能解决的时候,我只能劝你花点小钱让专业的人员帮忙了,6box肯定有发票吧,买了服务把发票给老板报! 先花299买个7天的服务把app搞上线, 作为公司几百块钱相对于app 能上线是小case!!
 [【链接】转给您身边苹果开发者，IPv6被拒如何破？](http://url.cn/2GGkPA5)这是一篇6box很好的教程!屡次被绝拒绝的,可以看看这篇教程!
 [IPv6解决办法：](http://www.solve6.com) 专门解决ipv6问题的的网站,**6box专门解决ipv6被拒的问题**推荐下,你付了费给6box,我拿不到任何报酬,我之所以推荐他们是因为他们的服务能帮助开发者,能解决开发者的痛点!
-###5)致此,最全面的ipv6 解决方案诞生了,希望可以帮到大家,喜欢请star!
+###5)致此,最全面的ipv6 解决方案诞生了,希望可以帮到大家,喜欢请star!___
 ____
 
 
