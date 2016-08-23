@@ -71,8 +71,8 @@ ______
 多找找 如何搭建ipv6的帖子(我第一次搭建看了好几篇帖子,试了好几种方法,搭建ipv6环境需要的网络可以是插的网线,也可以是wifi),如果都不行[这里有很多如何搭建ipv6 的文章](http://www.jianshu.com/search?q=ipv6+%E6%90%AD%E5%BB%BA&page=1&type=notes),你需要做的是注意一些细节问题,比如苹果系统是10.11.5 以上,测试的手机最好不是iphon5 以下,笔者亲测iphone5连不上ipv6,是个例还是普遍现象有待进一步考证
 #####1.1)检查服务器是否支持ipv6(这是一个大问题啊)
 笔者公司用的阿里云,6.8号以后项目上线,服务器一行代码也没就修改项目照常上线,自己公司搭建的和其他小服务器厂商需要重点关注下,比如拍云以前就不支持,现在支持了.如果使用第三方服务器请咨询服务器提供商,是否适配ipv6,自己公司的服务器人员需要怎么修改,询问有时候可以快速获得最佳的答案!
-<br>如果搭建的过程中试了无数的方法,ipv6访问app服务器访问不了,你需要测试下你的服务器是否支持ipv6,怎么验证参考这篇文章
-<br>[简单的理解（已验证，项目已经上线）](http://www.jianshu.com/p/97b205933c15),<br>[另外这个网址也可以测试ipv6连接是否正常](http://www.subnetonline.com/pages/ipv6-network-tools/online-ipv6-ping.php),<br>[ipv6测试](http://test-ipv6.com) 这个连接可以进行ipv6 测试 大家可以试试
+<br>如果搭建的过程中试了无数的方法,ipv6访问app服务器访问不了,你需要测试下你的服务器是否支持ipv6,怎么验证参考这三篇文章中一篇吧!
+<br>[简单的理解（已验证，项目已经上线）](http://www.jianshu.com/p/97b205933c15),<br>[另外这个网址也可以测试ipv6连接是否正常](http://www.subnetonline.com/pages/ipv6-network-tools/online-ipv6-ping.php),<br>[ipv6测试](http://test-ipv6.com) 这3个测试可以进行ipv6 测试 大家可以选其中一个试试
 #####1.2)服务器不支持ipv6,怎么解决(群里面有部分网友问到)
 让服务器开发人员修改到上面的测试ipv6通过为止,如果服务器不会修改怎么办?找专业的人员帮忙,有可能需要购买中专服务,本解决方案的花钱找人帮忙部分有介绍.[关于ipv6审核给你点借鉴](http://my.oschina.net/u/872517/blog/728827)此文介绍了一些服务器如何适配ipv6,需要添加aaaa中转,这种中转有付费和免费的,详情见链接原文!更多关于ipv6的原理,服务器如何支持ipv6,如何花钱让别人使你的服务器是否支持ipv6,请参考[这篇文章](http://mp.weixin.qq.com/s?plg_nld=1&plg_uin=1&mid=2247483863&idx=1&plg_nld=1&scene=23&plg_auth=1&__biz=MzI0NTI4ODA2Mw%3D%3D&plg_dev=1&srcid=0701GkquSx0l7Z6CchTAHFFn&plg_usr=1&plg_vkey=1&sn=622478d2775c5f8835fe1ed16964552e#rd)
 
