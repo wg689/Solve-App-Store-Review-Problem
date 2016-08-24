@@ -45,7 +45,7 @@ https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98-%E5%9
 
 ____
 
-#📣问题:ipv6被拒绝
+#📣苹果ipv6被拒绝邮件汇总
 (近2个月苹果审核拒绝的app,据笔者估计ipv6占75%以上,内购占10%,其他占15%)
 
 **苹果邮件描述**<br>**被拒的描述1**:<br>From Apple<br> 2. 1 PERFORMANCE: APP COMPLETENESS<br> 2. 3 PERFORMANCE: ACCURATE METADATA<br> Performance - 2.1 <br> We were unable to review your app as it crashed on launch. We have attached detailed crash logs to help troubleshoot this issue.<br> Next Steps<br> Please revise your app and test it on a device while connected to an IPv6 network (all apps must support IPv6) to ensure it will launch without crashing.<br> Resources<br> For additional information about supporting IPv6 Networks, please refer to Supporting IPv6 DNS64/NAT64 Networks and Supporting IPv6-only Networks.<br> For a networking overview, please see About Networking.<br> For information on how to symbolicate and read a crash log, please see Tech Note TN2151 Understanding and Analyzing iPhone OS Application Crash Reports.<br> If you have difficulty reproducing this issue, please try testing the workflow described in Testing Workflow with Xcode's Archive feature.<br> If you have code-level questions after utilizing the above resources, you may wish to consult with Apple Developer Technical Support. When the DTS engineer follows up with you, please be ready to provide:<br> - complete details of your rejection issue(s)<br> - screenshots<br> - steps to reproduce the issue(s)<br> - symbolicated crash logs - if your issue results in a crash log  <br> <br>**被拒描述2**:<br> We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.<br>At launch, the app crashes or display message as “请检查网络连接”.<br>We've attached screenshot(s) for your reference.<br>Next Steps<br>Please run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review. <br><br>**被拒描述3**<br> We discovered one or more bugs in your app when reviewed on iPad and iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.  Specifically, <br>we were unable to load the video contents. The loading icon kept spinning. No mote further action was taken.  <br>We've attached screenshot(s) for your reference.
@@ -60,7 +60,7 @@ Performance - 2.4.1 We noticed that your app did not run at iPhone resolution 
 **被拒的描述7**....** 我见过超过10种描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app **
 
 
-##🌶解决方案:
+##Q:(一)如何适配ipv6?
 ___
 
 上面的描述不一样, 解决方案都一样,都需要支持ipv6 **只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app ,拒绝邮件没有包含"ipv6"但是告诉你网络加载失败,加载不出来,登录就崩溃等现象,**如被拒描述6所示!为啥?被拒描述6所示:"说在9.3.4下无法连接",最近啥问题会导致一大片的app无法连接?ipv6 啊,既然有无法连接的问题,是不是该检查下ipv6 是否ok?下面告诉你如何检查!
@@ -84,31 +84,31 @@ ______
 
 
 
-###2)app连上搭建好的共享wifi测试你的app,每个界面都点一下!
+###1.4)app连上搭建好的共享wifi测试你的app,每个界面都点一下!
 _____
 
 app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连接网络, 更换相应的模块即可,**让测试人员把所有的模块功能都点一下,最好在搭建好的ipv6下使用iOS9.3.0以上的系统测试,苹果审核使用iOS9.3.0以上的系统审核**,这样就会某些模块网络出现无法联网的异常或者崩溃,你按照下面的几个步骤进行适配ipv6
-#####2.1)更换第三方SDk 
+#####1.4.1)更换第三方SDk 
 需要更换那些SDK 可以参考我的博客 [适配IPV6需要替换的第三方SDK](http://www.jianshu.com/p/afc0b19fd5d3)  
 如果你的友盟,shareSDk是6.1号之前集成的,一定要去更换这些SDK,6.1号后,各个SDK提供商(友盟,环信等等)陆续出了最新的SDk适配ipv6<br>
-#####2.2)比较老的网络请求函数(http请求) 
+#####1.4.2)比较老的网络请求函数(http请求) 
  比如使用ASI或者AFN的版本太低,使用最新的AFN即可解决问题 
  <br>**注意确认:ipv6 搭建连接是否正确 ?所有功能是否在ipv6下都测试了,app安装在iphon6 以上的机器测试,iphon5 可能连不上ipv6 wifi,搭建ipv6 可以使用mac连接网线和mac连无线,两种方法都可以试试,** 
 
-#####2.3)socket请求适配ipv6(没有用到socket的同学忽略此条)
+#####1.4.3)socket请求适配ipv6(没有用到socket的同学忽略此条)
 QQ群很多同学问socket如何适配ipv6?先科普下什么是socket,socket就是和服务器保持长链接,在聊天,直播弹幕,如果你的socket用的第三方比如:环信,融云,leenCloud等 这种第三方的适配超级简单更换最新版的SDK就行.更换SDK的注意事项参考我的博客[环信SDK更换1小时搞定](http://www.jianshu.com/p/d3d77e089489),注意点:更换SDK前咨询技术客服让你少走弯路,具体原因参考我的博客,这是我的经验之谈.如果你的socket没有用第三方,纯自己写的去适配ipv6,其实也是有办法的,我给你提供几个链接参考:[http://www.jianshu.com/p/a6bab07c4062](http://www.jianshu.com/p/a6bab07c4062),这是网易的某大牛写的,[IPV6的配置](http://www.jianshu.com/p/f3af0de54e76),[ipv6总结](http://www.jianshu.com/p/c106f6256c64)更多文章参考这里[更多文章](http://www.jianshu.com/search?q=socket+ipv6&page=2&type=notes),这几篇文章看完,我相信你对如何适配socket会有一个大致的了解!
 
 
-#####2.4)用VPN在美国的线路访问服务端(增加通过率的小招)
+#####1.4.4)用VPN在美国的线路访问服务端(增加通过率的小招)
 理论上上面这些解决方案就足够了,下面的方案不用看了,但是为了通过率再提高提高,实际上上面这些做了还是会有很大的概率被拒绝!为了增加通过率**建议**:用VPN在美国的线路访问服务端试一试,因为有些人在自己搭建的ipv6下可以请求数据,但是在美国的线路访问服务端IPV6无法连接,我知道的有超过5位网友遇到过VPN下美国的线路无法连接服务器,不适用VPN 测试的ipv6 是可以正常连接的.
 
-###3)ipv6被拒后的补救措施(顺序操作哦)
+##Q:(二)ipv6多次被拒后的怎么办?(顺序操作哦)
 ____
-如果你的应用已经搭建过ipv6测试环境,那么你就按照下面的方法解决
+如果你的应用已经搭建过ipv6测试环境并且测试修改过,那么你就按照下面的方法解决,如果从来没做过ipv6适配,请参考如何适配ipv6
 <br>
-#####3.1)措施1
+#####2.1)措施1
 用VPN在美国的线路访问服务端试一试,因为有些人在自己搭建的ipv6下可以请求数据,但是在美国的线路访问服务端IPV6无法连接,我知道的有超过5位网友遇到过:"VPN下美国的线路无法连接服务器,不用VPN "测试的ipv6 是可以正常连接的现象"的".这里有问题你就修复这里的问题重新打包ipa提交,不是Reply哦!
-#####3.2)措施2
+#####2.2)措施2
 措施1中的在VPN下使用美国的线路测试发现ipv6访问服务器一切正常,苹果那边说你没适配ipv6,你拍个视频给审核人员[详情参考这个链接,有详细例子如何拍视频,点击查看](http://www.cocoachina.com/bbs/read.php?tid-1684531.html),最近被人咨询的比较多的问题我回答下:
 <br>**问题:如何拍视频啊?**
 答:拿个安卓或者iOS手机拍摄.个人觉得不应该是录制屏幕,录制屏幕不能很好的反映出你适配ipv6的过程
@@ -123,7 +123,7 @@ ____
 找到苹果拒绝的描述,这个描述是可以回复的(Reply),在这个Reply里面贴上你的视频链接,写上大致意思
 是:"我真的适配了ipv6,我把适配和测试过程都排了,麻烦你再审一遍"的话,如果是2016年5月以前申诉比重新提交节省4-5天的时间重新进入审核,现在申诉和重新提交进入再次审核的时间区别不大,所以选择重新提交和
 Reply 都可以!
-#####3.3)措施3
+#####2.3)措施3
 大部分是不需要措施3的,上面的这些做了还是被拒绝怎么办,措施1试过,措施2也试过,还是不管用,我只能建议你继续提交了,stakeoverflow上面有人说,自己测试了都是没问题,怎么苹果还是拒绝,苹果的工程师告诉他你就继续提交吧,这是审核人员的bug,其实这种情况国内的开发者(包括笔者)也遇到过,你明明提供了app的测试账号,他说你没提供,你回复下就好了!他们人工审核也会有失误的时候,只是这个失误被你碰到了!这就是为什么有部分网友啥都没修改,只是在拒绝的描述哪里reply 一下就通过了.
 
 <br>**问题:被拒绝后我是Reply还是重新提交呢**
@@ -131,7 +131,7 @@ Reply 都可以!
 重新提交:重新填写版本号,重新填写信息,点击提交以供审核按钮.
 当你修改了应用的内容的时候,比如修改了代码,修改了版本号,必须重新提交,提交最好让版本号增加,提交审核网页的中间部分还需要选择你上传的ipa,如果没做任何修改就Reply 一下.
 
-###4)花钱找人帮忙(对ipv6无计可适的时候可以考虑)
+##Q:(三)实在搞不定ipv6怎么办?(对ipv6无计可适的时候可以考虑)
 ____
 如果上面的的方案都不能解决,那么你就需要下面专业的人帮你了,好像要收费啊,收费好,既然收了你的钱,人家肯定得有技术支持教你怎么适配吧,当免费方案都不能解决的时候,我只能劝你花点小钱让专业的人员帮忙了,6box肯定有发票吧,买了服务把发票给老板报! 先花299买个7天的服务把app搞上线, 作为公司几百块钱相对于app 能上线是小case!!
 [【链接】转给您身边苹果开发者，IPv6被拒如何破？](http://url.cn/2GGkPA5)这是一篇6box很好的教程!屡次被绝拒绝的,可以看看这篇教程!
@@ -140,7 +140,8 @@ ____
 1)先搭建环境
 2)确保服务器支持ipv6
 3)再把每个界面点一下,观察所有的网络是否有异常,哪里有问题换哪里!,自己实在搞不定就花钱找人帮忙**
-###5)致此,最全面的ipv6 解决方案诞生了,希望可以帮到大家,喜欢请star,转发!如果本文看了三遍还无法解决你的ipv6问题,请私聊审核问答群的群主,群主(我)1对1帮你解答!就是这么有爱心,哈哈(前提是star要给力喔)!
+##(四)总结
+致此,最全面的ipv6 解决方案诞生了,希望可以帮到大家,喜欢请star,转发!如果本文看了三遍还无法解决你的ipv6问题,请私聊审核问答群的群主,群主(我)1对1帮你解答!就是这么有爱心,哈哈(前提是star要给力喔)!
 ____
 
 
