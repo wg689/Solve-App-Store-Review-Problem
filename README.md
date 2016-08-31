@@ -3,9 +3,10 @@
 最近本仓库被广大网友star,每一个star的网友github账号我都看得到,在此表示谢谢!你们的关注和star我会坚持更新!
 
 
-**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝的内容到群(类似下面的被拒描述的内容),更方便别人帮助解答,369250107`(群较活跃,欢迎加入)** 
-<br>
-![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/jiaqun.jpeg)
+**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝的内容到群(类似下面的被拒描述的内容),更方便别人帮助解答,369250107(欢迎加入)** 
+
+<img src="Picture/jiaqun.jpeg" width="30%">
+
 
 
 
@@ -112,16 +113,18 @@ ____
 #####2.1)措施1
 用VPN在美国的线路访问服务端试一试,VPN推荐[鱼摆摆](https://ybb1024.com/),9块钱一个月,有群友可以通过鱼摆摆在VPN美国线路下访问自家的app,虽说鱼摆摆自家的客服说不行
 
-因为有些人在自己搭建的ipv6下可以请求数据,但是在美国的线路访问服务端IPV6无法连接,我知道的有超过5位网友遇到过:"VPN下美国的线路无法连接服务器,不用VPN "测试的ipv6 是可以正常连接的现象"的".这里有问题你就修复这里的问题重新打包ipa提交,不是Reply哦!,很多人问VPN下选择美国线路搭建ipv6热点怎么弄,我画了一个图,如果你用下面的流程图搭建的ipv6热点,最新版QQ,微信都无法联网,那么搭建的ipv6热点就是有问题的(有些VPN不支持ipv6),否则搭建的热点是没问题的.
+因为有些人在自己搭建的ipv6下可以请求数据,但是在美国的线路访问服务端IPV6无法连接,有些服务器开启了防火墙 对国外的IP禁止,我知道的有超过5位网友遇到过:"VPN下美国的线路无法连接服务器,不用VPN "测试的ipv6 是可以正常连接的现象"的".这里有问题你就修复这里的问题重新打包ipa提交,不是Reply哦!,很多人问VPN下选择美国线路搭建ipv6热点怎么弄,我画了一个图,如果你用下面的流程图搭建的ipv6热点,最新版QQ,微信都无法联网,那么搭建的ipv6热点就是有问题的(有些VPN不支持ipv6),否则搭建的热点是没问题的.
 #####搭建VPN美国线路下ipv6的测试环境步骤
 - 1.按照本文提供的测试文档搭建ipv6测试环境,wifi上有箭头,手机的DNS是冒号隔开的,另外你搭建的测试环境至少要保证qq,微信通信正常
 
 - 2.环境搭建好后如果使用的网线,需要安装鱼摆摆(推荐)或者其他的VPN(没用过),需要在鱼摆摆的设置->ipv6 _>菜单显示线路是否支持ipv6,优先使用ipv6 这两个选项勾选才会出现下面的图片所示
- 
-![鱼摆摆](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/VPN_ybb.png)
+
+ <img src="Picture/VPN_ybb.png" width="30%">
+
 
 - 3.选择美国线路,手机连上ipv6热点进行测试,**ipv6热点很不稳定有时候明明搭建好了,wifi上有箭头,手机的DNS是冒号隔开的,整个手机所有app都不能联网,这种情况你就需要多试几次搭建的过程或者换环境(公司不行,回家试试,这台电脑不行换同事的电脑,这个网线不行换个网线试试,笔者在家搭建的ipv6链接顺畅,公司搭建的ipv6各种问题)**
-![VPN选择美国线路搭建ipv6流程图](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/VPN_American_ipv6.png)
+
+ <img src="Picture/VPN_American_ipv6.png" width="100%">
 
 - 4上面步骤做完就可以在VPN美国线路下测试ipv6
 
@@ -177,16 +180,22 @@ ____
 #📣问题:没有填写耗电的描述被拒绝
 
 **苹果邮件描述**<br>
-![1](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/%E7%94%B5%E6%B1%A0%E6%8F%8F%E8%BF%B0.png)
+<img src="Picture/%E7%94%B5%E6%B1%A0%E6%8F%8F%E8%BF%B0.png" width="100%">
+
+
 
 ##解决方案:
 #1)添加描述的位置
-![添加描述的位置](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/cost%20detail.png)
+<img src="Picture/cost%20detail.png" width="100%">
 
 #2如何描述的例子)
-![如何描述的例子](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/custdetailExample.png)
+
+<img src="Picture/custdetailExample.png" width="100%">
+
 #3)需要在plist告诉用户的
-![需要在plist告诉用户的](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/custDetailMiaoshulist.png)
+
+<img src="Picture/custDetailMiaoshulist.png" width="100%">
+
 ____
 
 
@@ -196,7 +205,8 @@ ____
 
 **苹果邮件描述**<br>苹果被拒邮件内容：<br>We found that your app uses the Advertising Identifier but does not include ad functionality. This does not comply with the terms of the Apple Developer Program License Agreement, as required by the App Store Review Guidelines.<br>Specifically, section 3.3.12 of the Apple Developer Program License Agreement states:<br>”You and Your Applications (and any third party with whom you have contracted to serve advertising) may use the Advertising Identifier, and any information obtained through the use of the Advertising Identifier, only for the purpose of serving advertising. If a user resets the Advertising Identifier, then You agree not to combine, correlate, link or otherwise associate, <br>either directly or indirectly, the prior Advertising Identifier and any derived information with the reset Advertising Identifier."<br>If your app is serving ads, please:<br>- Ensure that you have tested your app on a device, not just the simulator, and that you have removed all previous versions of your app prior to testing<br>- Provide us the steps to locate ads in your app<br>If your app does not serve ads, please check your code - including any third-party libraries - to <br>remove any instances of:<br>class: ASIdentifierManager<br>selector: advertisingIdentifier<br>framework: AdSupport.framework<br>If you are planning to incorporate ads in a future version, please remove the Advertising Identifier from your app until you have included ad functionality.<br>To help locate the Advertising Identifier, use the "nm" tool. For information on the "nm" tool, please see the nm man page.<br>If you do not have access to the libraries' source, you may be able to search the compiled binary using the "strings" or "otool" command line tools. The "strings" tool lists the methods that the library calls, and "otool -ov" will list the Objective-C class structures and their defined methods. These <br>techniques can help you narrow down where the problematic code resides.
 
-##解决方案: **app没有做广告,是否有广告的勾,就不要打勾了如图片中所示,重新上传!** ![图片](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/ads_select_reject.png)就可解决 
+##解决方案: **app没有做广告,是否有广告的勾,就不要打勾了如图片中所示,重新上传!** 就可解决 
+<img src="Picture/ads_select_reject.png" width="100%">
 
 ____
 
@@ -222,18 +232,26 @@ ____
 #📣问题:app下载速度很慢的问题啊,我们上线的应用下载好慢?
 
 ##解决方案:过段时间就好了,下载量多了就快了
+  今天有个朋友说他的app下载很慢，他说下载其他的不会，就他的会很慢很卡。我心想这东西苹果的我也没办法了呀，不过我心里也想我平时下载挺快的呀。于是就开始试试。搜索了几个app下载发现确实是有快有慢，并且有些app很小但是确没有那些很大的下载快。这就奇怪了，按照网速的毕竟是同一个时间和同一个网要慢的话应该都慢。于是带着问题继续研究，这是为啥呢？还到知乎搜了一圈发现上面的回答都基本是说天朝网络环境问题。
+
+ 然后我就搜索了几个冷门的app 例如《闪现侠》、《个火》，然后开始下载发现这两个app虽然小但是下载速度奇慢无比，再同时下载了一个《美团外卖》发现60M左右一下就下载完了，等美团外卖下载完，前面两个还没有下载完。这时候我就陷入了婶婶的脑海里开始想为啥会这样呢？为啥呢？
+
+   这难道和bit那种下载有关？于是我开始搜索了《个信》一个曾经风靡一时，但是现在已经被微信拍死在沙滩上面的app，发现下载速度还是杠杠的。这下我似乎明白了他的真正原因了。估计是苹果把更多的带宽分给了一些常用和用户量还可以的app，因为我后面搜索了很多冷门和热门的app下载发现情况就是这样一些不知名的app即使再小也下载很慢。瞬间我的心拔凉拔凉的，这对于一些初创公司来说，他们的app只有沉默在汪洋的大海里面了。对于appstore下载慢的问题大家可以继续讨论，我基本推理应该是这个结论，欢迎知情人士来补充，和验证我上面的结果。
+
 ____
 
 ____
 
 #📣问题:提交审核无法选择文件
-![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimage.png)
+<img src="Picture/selectimage/cannotSelectimage.png" width="100%">
+
 
 ##解决方案:
 **删掉重建应用,修改应用bundleid,重新上传,即可提交!qq群网友提供 的解决方案这是一个bug,待苹果修复,**
+<img src="Picture/selectimage/cannotSelectimageSolve.png" width="100%">
+<img src="Picture/selectimage/cannot_select.png" width="100%">
 
-![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannotSelectimageSolve.png)
-![](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/Picture/selectimage/cannot_select.png)
+
 
 
 ____
@@ -266,19 +284,8 @@ ____
 
 #📣问题:微信支付,登陆,分享没安装微信,提示下载微信被拒绝怎么办?
 
-**苹果邮件描述**<br>
-
 ##解决方案:
-
-____
-
-____
-
-#📣问题:
-
-**苹果邮件描述**<br>
-
-##解决方案:
+- 1)如果审核的时候有这种被拒绝,那么你需要
 
 ____
 
