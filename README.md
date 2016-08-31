@@ -48,64 +48,33 @@ ____
 
 [审核][ipv6 最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md)
 
-____
+
 #后台定位被拒绝?6种方案总有一种适合你,请点下面链接知晓答案
 [审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)
 
-
-____
-
 #没有填写耗电的描述被拒绝?哪儿写?怎么写?
 [审核][没有填写耗电的描述被拒绝](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
-
-
-____
-
-
-____
 
 #广告勾选错误被拒,一妹纸提交审核的时候,苹果问是否有广告,结果这妹纸想以后可能有广告,勾选了,结果被拒了    
 
 [审核][广告勾选错误被拒被拒绝](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/add_select_error.md)
 
-____
-
-
-
-
-____
-#问题:app崩溃(Crash)问题
+#app崩溃(Crash)问题被拒绝
 [审核][app崩溃(Crash)问题被拒绝](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/app_crash.md)
-
-____
 
 #问题:app下载速度很慢的问题啊,我们上线的应用下载好慢?
 [问题][app下载速度很慢的问题](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/app_dowload_slow.md)
-____
-
-____
 
 #问题:提交审核无法选择文件
 [问题][提交审核无法选择文件](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/cannot_select_file.md)
 
-____
-
-
-____
-
-#问题:卖商品不想走内购怎么办?(内购被拒绝)
+#卖商品不想走内购怎么办?(内购被拒绝)
 那些商品离不开内购:视频(很多公司卖课程视频),会员,游戏钻石,游戏币,直播礼物等虚拟物品等,卖药卖实物无需走内购
 
 [问题][卖商品不想走内购怎么办?(内购被拒绝)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md)
-
-____
-____
-
-#问题:微信支付,登陆,分享没安装微信,提示下载微信被拒绝怎么办?
+#微信支付,登陆,分享没安装微信,提示下载微信被拒绝怎么办?
 [问题][微信支付,登陆,分享没安装微信,提示下载微信被拒绝怎么办?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md)
 
-
-____
 
 
 #其他审核知识
