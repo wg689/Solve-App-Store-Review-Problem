@@ -15,7 +15,7 @@
 #目录:
 
 
-[审核][ipv6 最全的拒绝解决方案(QQ群至少有10位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98ipv6%E8%A2%AB%E6%8B%92%E7%BB%9D)
+[审核][ipv6 最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md)
 
 
 [审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](
@@ -46,8 +46,11 @@ https://github.com/wg689/Solve-App-Store-Review-Problem#%E9%97%AE%E9%A2%98-%E5%9
 ____
 
 
+#ipv6:是否是ipv6被拒?如何适配ipv6?适配了ipv6还是被拒怎么办?实在搞不定怎么办?请点下面链接知晓答案
 
+[审核][ipv6 最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md)
 
+____
 
 
 
