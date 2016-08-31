@@ -14,7 +14,6 @@
 ######开玩笑的,祝大家都早日通过,免得老板天天催催......!
 #目录:
 
-
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 [审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)<img src="Picture/small_image/four_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
@@ -24,7 +23,7 @@
 
 [审核][广告勾选错误被拒](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/add_select_error.md)
 
-[审核][app崩溃(Crash)问题](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/app_crash.md)
+[审核][app崩溃(Crash)问题被拒绝](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/app_crash.md)
 
 [问题][app下载速度很慢的问题啊,我们上线的应用下载好慢?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/app_dowload_slow.md)
 
@@ -35,11 +34,6 @@
 [审核][卖商品不想走内购怎么办?(内购被拒绝)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md)
 
 [审核][微信支付,登陆,分享没安装微信,提示下载微信被拒绝)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md)
-
-
-____
-
-
 
 #其他审核知识
 
