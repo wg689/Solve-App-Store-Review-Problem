@@ -1,20 +1,23 @@
 
 #ipv6审核被拒绝的解决方案
 ##目录
-[苹果ipv6被拒绝邮件描述汇总](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E8%8B%B9%E6%9E%9Cipv6%E8%A2%AB%E6%8B%92%E7%BB%9D%E9%82%AE%E4%BB%B6%E6%8F%8F%E8%BF%B0%E6%B1%87%E6%80%BB)
-[如何判断是因为ipv6被拒绝?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%98%AF%E5%9B%A0%E4%B8%BAipv6%E8%A2%AB%E6%8B%92%E7%BB%9D
+
+
+ - 1.[苹果ipv6被拒绝邮件描述汇总](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E8%8B%B9%E6%9E%9Cipv6%E8%A2%AB%E6%8B%92%E7%BB%9D%E9%82%AE%E4%BB%B6%E6%8F%8F%E8%BF%B0%E6%B1%87%E6%80%BB)
+
+- 2.[如何判断是因为ipv6被拒绝?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%98%AF%E5%9B%A0%E4%B8%BAipv6%E8%A2%AB%E6%8B%92%E7%BB%9D
 )
 
-[如何适配ipv6?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E5%A6%82%E4%BD%95%E9%80%82%E9%85%8Dipv6
+- 3.[如何适配ipv6?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E5%A6%82%E4%BD%95%E9%80%82%E9%85%8Dipv6
 )
 
+- 4.[检查服务器是否支持ipv6及服务器如何修改](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#12%E6%A3%80%E6%9F%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81ipv6%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A4%A7%E9%97%AE%E9%A2%98%E5%95%8A)
 
-[ipv6多次被拒后的怎么办?自己搭建的ipv6是好的还是被拒绝怎么办?(顺序操作哦)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#q%E4%BA%8Cipv6%E5%A4%9A%E6%AC%A1%E8%A2%AB%E6%8B%92%E5%90%8E%E7%9A%84%E6%80%8E%E4%B9%88%E5%8A%9E%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84ipv6%E6%98%AF%E5%A5%BD%E7%9A%84%E8%BF%98%E6%98%AF%E8%A2%AB%E6%8B%92%E7%BB%9D%E6%80%8E%E4%B9%88%E5%8A%9E%E9%A1%BA%E5%BA%8F%E6%93%8D%E4%BD%9C%E5%93%A6
+- 5.[ipv6多次被拒后的怎么办?自己搭建的ipv6是好的还是被拒绝怎么办?(顺序操作哦)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#q%E4%BA%8Cipv6%E5%A4%9A%E6%AC%A1%E8%A2%AB%E6%8B%92%E5%90%8E%E7%9A%84%E6%80%8E%E4%B9%88%E5%8A%9E%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E7%9A%84ipv6%E6%98%AF%E5%A5%BD%E7%9A%84%E8%BF%98%E6%98%AF%E8%A2%AB%E6%8B%92%E7%BB%9D%E6%80%8E%E4%B9%88%E5%8A%9E%E9%A1%BA%E5%BA%8F%E6%93%8D%E4%BD%9C%E5%93%A6
 )
 
-[实在搞不定ipv6怎么办?(对ipv6无计可适的时候可以考虑)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#q%E4%B8%89%E5%AE%9E%E5%9C%A8%E6%90%9E%E4%B8%8D%E5%AE%9Aipv6%E6%80%8E%E4%B9%88%E5%8A%9E%E5%AF%B9ipv6%E6%97%A0%E8%AE%A1%E5%8F%AF%E9%80%82%E7%9A%84%E6%97%B6%E5%80%99%E5%8F%AF%E4%BB%A5%E8%80%83%E8%99%91
+- 6.[实在搞不定ipv6怎么办?(对ipv6无计可适的时候可以考虑)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#q%E4%B8%89%E5%AE%9E%E5%9C%A8%E6%90%9E%E4%B8%8D%E5%AE%9Aipv6%E6%80%8E%E4%B9%88%E5%8A%9E%E5%AF%B9ipv6%E6%97%A0%E8%AE%A1%E5%8F%AF%E9%80%82%E7%9A%84%E6%97%B6%E5%80%99%E5%8F%AF%E4%BB%A5%E8%80%83%E8%99%91
 )
-
 
 
 
