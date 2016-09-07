@@ -54,6 +54,9 @@
 
 [审核][微信支付,登陆,分享没安装微信,提示下载微信被拒绝)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md)
 
+[审核][注册功能被拒绝原因分析和解决方案,审核认为没必要提前让用户注册](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md#%E9%97%AE%E9%A2%98%E8%A2%AB%E6%8B%92%E7%BB%9D%E6%B3%A8%E5%86%8C%E5%8A%9F%E8%83%BD)
+
+
 #其他审核知识
 
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
