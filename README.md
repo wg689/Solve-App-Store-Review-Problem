@@ -3,9 +3,17 @@
 最近本仓库被广大网友star,每一个star的网友github账号我都看得到,在此表示谢谢!你们的关注和star我会坚持更新!
 
 
-**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝英文描述到群,更方便别人帮助解答,,appstore审核问答群①已满,无法加入,请加审核问答②群467449800(欢迎加入群② 人数目前偏少,笔者会更多的在这个群 解答下)** 
+**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝英文描述到群,更方便别人帮助解答,<br>
+>appstore审核问答群①369250107,500+人,付费一元入群,前500人都是免费加入的,后面之所以收费是买了QQ超级会员升级群上限到2000人才收费,审核问答②群467449800(免费入群)** 
 
- <img src="Picture/jiaqun2.png" width="30%">
+
+ <img src="Picture/jiaqun_1.png" width="30%">    <img src="Picture/jiaqun2.png" width="30%">
+ 
+ 为了给大家升级群上限需要花钱的228/每年,所以才收1块钱,取之于大家,用之于大家,所以请大家谅解,不想花一块钱的 ,加群467449800(免费入群)
+ 
+  <img src="Picture/superpay.png" width="30%"> 
+ 
+
 
 
 
@@ -16,6 +24,7 @@
 ######开玩笑的,祝大家都早日通过,免得老板天天催催......!
 #目录:
 [技巧][app被拒绝了,如何解决,(QQ群问问题之前必看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
+
 
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
