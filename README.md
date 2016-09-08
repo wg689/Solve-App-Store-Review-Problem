@@ -15,7 +15,7 @@
 # 敬请右上角Star,你的star是我持续更新的动力,(据说star的人,提交都过了 哈哈哈😃~~~)谢谢
 ######开玩笑的,祝大家都早日通过,免得老板天天催催......!
 #目录:
-[审核][app被拒绝了,如何解决,(问问题之前看看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
+[技巧][app被拒绝了,如何解决,(问问题之前看看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
