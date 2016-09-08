@@ -1,4 +1,4 @@
-#ipv6被拒绝,后台定位被拒绝,免费的终极解决方案,大家齐心协力让天下没有解决不了的ipv6问题!
+#ipv6被拒绝,后台定位被拒绝,免费的终极解决方案,苹果审核被拒绝了如何取解决,大家齐心协力让天下没有解决不了的问题!
 文中有不妥的欢迎提issue或者去审核问答群找群主反馈,我会重视每一个意见!
 最近本仓库被广大网友star,每一个star的网友github账号我都看得到,在此表示谢谢!你们的关注和star我会坚持更新!
 
@@ -15,7 +15,7 @@
 # 敬请右上角Star,你的star是我持续更新的动力,(据说star的人,提交都过了 哈哈哈😃~~~)谢谢
 ######开玩笑的,祝大家都早日通过,免得老板天天催催......!
 #目录:
-[审核][app被苹果拒绝了,如何解决(授人以鱼不如授人以渔))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
+[审核][app被拒绝了,如何解决,(问问题之前看看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
