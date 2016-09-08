@@ -3,7 +3,7 @@
 最近本仓库被广大网友star,每一个star的网友github账号我都看得到,在此表示谢谢!你们的关注和star我会坚持更新!
 
 
-**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝英文描述到群,更方便别人帮助解答,,appstore审核问答群①已满,无法加入,请加审核问答②群467449800(欢迎加入,群② 人数目前偏少,笔者会更多的在这个群 解答下)** 
+**appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝英文描述到群,更方便别人帮助解答,,appstore审核问答群①已满,无法加入,请加审核问答②群467449800(欢迎加入群② 人数目前偏少,笔者会更多的在这个群 解答下)** 
 
  <img src="Picture/jiaqun2.png" width="30%">
 
@@ -15,6 +15,7 @@
 # 敬请右上角Star,你的star是我持续更新的动力,(据说star的人,提交都过了 哈哈哈😃~~~)谢谢
 ######开玩笑的,祝大家都早日通过,免得老板天天催催......!
 #目录:
+[审核][app被苹果拒绝了,如何解决(授人以鱼不如授人以渔))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
@@ -36,6 +37,8 @@
 
 
 [审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)<img src="Picture/small_image/four_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
+
+
 
 
 [审核][没有填写耗电的描述被拒绝,怎么写?哪儿写?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
