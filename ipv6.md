@@ -33,7 +33,9 @@ We discovered one or more bugs in your app when reviewed on iPhone running iOS 9
 Performance - 2.4.1 We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 9.3.4. Specifically, we were not able to log in from an iPad as an error message displayed. We've attached screenshot(s) for your reference. aNext Steps Please revise your app to ensure it runs and displays properly at iPhone resolution on iPad. Resources For information on iOS device screen sizes and resolutions, please see the iOS Human Interface Guidelines as well as the Points versus Pixels in the View Programming Guide for iOS.
 
 
-**被拒的描述7**....我见过超过10种以上的描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app 
+<br><br>**被拒的描述7**
+We discovered one or more bugs in your app when reviewed on iPad and iPhone running** iOS 10.0 **on Wi-Fi connected to an IPv6 network.Specifically, we were unable to login to the app. The loading icon span indefinitely.We've attached screenshot(s) for your reference.Next StepsPlease run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review.If we misunderstood the intended behavior of your app, please reply to this message in Resolution Center to provide information on how these features were intended to work.For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce the issue(s). For updates, install the new version as an update to the previous version, then follow the steps to reproduce the issue(s).
+**被拒的描述8**....我见过超过10种以上的描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app 
 
 
 ##如何判断是因为ipv6被拒绝?
@@ -88,7 +90,8 @@ app连上搭建好的共享wifi测试你的app,会发现某些 模块无法连�
 QQ群很多同学问socket如何适配ipv6?先科普下什么是socket,socket就是和服务器保持长链接,在聊天,直播弹幕,如果你的socket用的第三方比如:环信,融云,leenCloud等 这种第三方的适配超级简单更换最新版的SDK就行.更换SDK的注意事项参考我的博客[环信SDK更换1小时搞定](http://www.jianshu.com/p/d3d77e089489),注意点:更换SDK前咨询技术客服让你少走弯路,具体原因参考我的博客,这是我的经验之谈.如果你的socket没有用第三方,纯自己写的去适配ipv6,其实也是有办法的,我给你提供几个链接参考:[http://www.jianshu.com/p/a6bab07c4062](http://www.jianshu.com/p/a6bab07c4062),这是网易的某大牛写的,[IPV6的配置](http://www.jianshu.com/p/f3af0de54e76),[ipv6总结](http://www.jianshu.com/p/c106f6256c64)更多文章参考这里[更多文章](http://www.jianshu.com/search?q=socket+ipv6&page=2&type=notes),这几篇文章看完,我相信你对如何适配socket会有一个大致的了解!
 #####1.4.4) 在ipv6下 哪里网络连接失败就换或者改代码
 
-
+###1.5) iOS10 下面 ipv6被拒绝怎么办?
+约9.10号之前,苹果审核人员对ipv6测试都是使用iOS9.3.5 左右的版本进行测试,最近iOS10 横空出世,苹果审核人员使用iOS10 的系统进行ipv6测试,如果app 在iOS10下因为ipv6被拒绝了,你需要下载最新的xcode8 (正式版,非beta版,4个G 网速好20分钟可以下完,xip的文件需要解压) ),同时手机升级到最新的iOS10 ,按照本文提供的教程搭建ipv6环境(搭建ipv6环境和xcode,iOS系统版本无关),对你的app在iOS10 的ipv6 下所有功能和界面进行测试,看看app 的功能是否完好,其他的如何修改和本文提供的方法一样,哪里不行改(换)哪里.
 
 
 ##Q:(二)ipv6多次被拒后的怎么办?自己搭建的ipv6是好的还是被拒绝怎么办?(顺序操作哦)
