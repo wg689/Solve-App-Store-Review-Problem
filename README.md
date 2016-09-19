@@ -56,6 +56,8 @@
 
 [审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)<img src="Picture/small_image/four_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
+[审核][iOS10出来了上传版本需要使用xcode8吗?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
+[审核][什么情况下才需要下载安装xcode8?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
 
 
 
