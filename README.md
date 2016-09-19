@@ -42,7 +42,7 @@
 
 - 4.[检查服务器是否支持ipv6及服务器如何修改](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#12%E6%A3%80%E6%9F%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81ipv6%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A4%A7%E9%97%AE%E9%A2%98%E5%95%8A)
 
-- 4.[iOS10 下ipv6被拒绝怎么办?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#15-ios10-%E4%B8%8B%E9%9D%A2-ipv6%E8%A2%AB%E6%8B%92%E7%BB%9D%E6%80%8E%E4%B9%88%E5%8A%9E)
+- 4.[iOS10 下ipv6被拒绝怎么办?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#15-ios10-%E4%B8%8B%E9%9D%A2-ipv6%E8%A2%AB%E6%8B%92%E7%BB%9D%E6%80%8E%E4%B9%88%E5%8A%9E)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 
 
