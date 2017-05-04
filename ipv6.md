@@ -30,11 +30,24 @@
 Performance - 2.1
 We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.4 on Wi-Fi connected to an IPv6 network.
 <br><br>**被拒的描述6**
-Performance - 2.4.1 We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 9.3.4. Specifically, we were not able to log in from an iPad as an error message displayed. We've attached screenshot(s) for your reference. aNext Steps Please revise your app to ensure it runs and displays properly at iPhone resolution on iPad. Resources For information on iOS device screen sizes and resolutions, please see the iOS Human Interface Guidelines as well as the Points versus Pixels in the View Programming Guide for iOS.
+Performance - 2.4.1
+We noticed that your app did not run at iPhone resolution when reviewed on iPad running iOS 9.3.4. Specifically, we were not able to log in from an iPad as an error message displayed.
+We've attached screenshot(s) for your reference.
+aNext Steps
+Please revise your app to ensure it runs and displays properly at iPhone resolution on iPad.
+Resources
+For information on iOS device screen sizes and resolutions, please see the iOS Human Interface Guidelines as well as the Points versus Pixels in the View Programming Guide for iOS.
 
 
 <br><br>**被拒的描述7**
-We discovered one or more bugs in your app when reviewed on iPad and iPhone running** iOS 10.0 **on Wi-Fi connected to an IPv6 network.Specifically, we were unable to login to the app. The loading icon span indefinitely.We've attached screenshot(s) for your reference.Next StepsPlease run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review.If we misunderstood the intended behavior of your app, please reply to this message in Resolution Center to provide information on how these features were intended to work.For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce the issue(s). For updates, install the new version as an update to the previous version, then follow the steps to reproduce the issue(s).
+We discovered one or more bugs in your app when reviewed on iPad and iPhone running** iOS 10.0 **on Wi-Fi connected to an IPv6 network.
+Specifically, we were unable to login to the app. The loading icon span indefinitely.
+We've attached screenshot(s) for your reference.
+Next Steps
+
+Please run your app on a device while connected to an IPv6 network (all apps must support IPv6) to identify the issue(s), then revise and resubmit your app for review.
+If we misunderstood the intended behavior of your app, please reply to this message in Resolution Center to provide information on how these features were intended to work.
+For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce the issue(s). For updates, install the new version as an update to the previous version, then follow the steps to reproduce the issue(s).
 **被拒的描述8**....我见过超过10种以上的描述了,我就不贴了,只要苹果拒绝邮件含有ipv6就需要适配ipv6,就需要搭建ipv6 环境测试自己的app 
 
 
@@ -162,7 +175,7 @@ ____
 **说了这么多其实可以用一句话总结本方案:
 1)先搭建环境
 2)确保服务器支持ipv6
-3)再把每个界面点一下,观察所有的网络是否有异常,哪里有问题换哪里!,自己实在搞不定就花钱找人帮忙**
+3)再把每个界面点一下,观察所有的网络是否有异常,哪里有问题换哪里!,自己实在搞不定就花钱找人帮忙 **
 ##(四)总结
 致此,最全面的ipv6 解决方案诞生了,希望可以帮到大家,喜欢请star,转发!如果本文看了三遍还无法解决你的ipv6问题,请私聊审核问答群的群主,群主(我)1对1帮你解答!就是这么有爱心,哈哈(前提是star要给力喔)!
 
