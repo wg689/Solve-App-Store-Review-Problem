@@ -53,7 +53,7 @@
 
 - 7.[实在搞不定ipv6怎么办?(对ipv6无计可适的时候可以考虑)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#q%E4%B8%89%E5%AE%9E%E5%9C%A8%E6%90%9E%E4%B8%8D%E5%AE%9Aipv6%E6%80%8E%E4%B9%88%E5%8A%9E%E5%AF%B9ipv6%E6%97%A0%E8%AE%A1%E5%8F%AF%E9%80%82%E7%9A%84%E6%97%B6%E5%80%99%E5%8F%AF%E4%BB%A5%E8%80%83%E8%99%91
 )
-- 8.[Appstore审核指南2017.9月 苹果官方中文版](https://developer.apple.com/app-store/review/guidelines/cn/?from=timeline&isappinstalled=0
+- 8.[Appstore审核指南2017年9月 苹果官方中文版](https://developer.apple.com/app-store/review/guidelines/cn/?from=timeline&isappinstalled=0
 )<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 
