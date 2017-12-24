@@ -1,7 +1,7 @@
 
 ____
 
-#📣问题:有objectionable(反感的讨厌的) and offensive(不愉快的)被拒绝
+# 📣问题:有objectionable(反感的讨厌的) and offensive(不愉快的)被拒绝
 
 **苹果邮件描述**<br>
 Your app includes content that many users would find objectionable(反感的讨厌订单) and offensive(冒犯).
@@ -13,7 +13,7 @@ Please remove all objectionable content from your app and submit your revised bi
  <img src="Picture/offensive/offensive_1.png" width="30%"> <img src="Picture/offensive/offensive_2.png" width="30%">
 
 
-##解决方案:
+## 解决方案:
 看到上文的汉字和红色箭头大致知道什么问题了
 苹果认为付费陪玩不符合苹果审核指南
 
@@ -25,7 +25,7 @@ ____
 
 ____
 
-#📣问题:如何隐藏部分功能
+# 📣问题:如何隐藏部分功能
 每次app 登陆掉一个接口 返回yes 或者no
 
 <img src="Picture/offensive/howtoHide.png" width="80%">
