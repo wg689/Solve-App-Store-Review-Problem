@@ -16,7 +16,7 @@
 ## 技巧: QQ群问问题 技巧
 [技巧][app被拒绝了,如何解决,(QQ群问问题之前必看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
-## ipv6 相关 (从菜鸟到ipv6解决入门 需要阅读和实验 本文档三遍 )
+## ipv6 相关 (从菜鸟到ipv6解决入门 需要阅读 本文档三遍 )
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
  - 1.[苹果ipv6被拒绝邮件描述汇总](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E8%8B%B9%E6%9E%9Cipv6%E8%A2%AB%E6%8B%92%E7%BB%9D%E9%82%AE%E4%BB%B6%E6%8F%8F%E8%BF%B0%E6%B1%87%E6%80%BB)
@@ -48,7 +48,7 @@
 
 [🖐ipv6] [博主对ipV6的看法](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/my_idear_of_ipv6.md)
 
-## 其他审核问题
+## 其他常见审核被拒绝问题
 [审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)<img src="Picture/small_image/four_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 [审核][iOS10出来了上传版本需要使用xcode8吗?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
@@ -80,7 +80,7 @@
 
 
 
-#其他审核知识
+# 其他
 
 [**app审核指南中英文对照版**](http://appstore.icewindtech.com)
 <br>苹果审核的电话:14089961010,被拒绝了不用想着去给苹果打电话,网上的电话打过去是不解决审核问题的,笔者以前打过,审核问题只有他们心情好的时候,给你打电话你接听,你无法因为被拒了主动联系到苹果审核人员!
