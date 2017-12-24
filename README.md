@@ -1,4 +1,4 @@
-#ipv6被拒绝,后台定位被拒绝,免费的终极解决方案,苹果审核被拒绝了如何取解决,大家齐心协力让天下没有解决不了的问题!
+# ipv6被拒绝,后台定位被拒绝,免费的终极解决方案,苹果审核被拒绝了如何取解决,大家齐心协力让天下没有解决不了的问题!
 
 
 
@@ -18,16 +18,10 @@
   <img src="Picture/superpay.png" width="30%"> 
  
 
-
-
-
-
-
-
 # 敬请右上角Star,你的star是我持续更新的动力,(据说star的人,提交都过了 哈哈哈😃~~~)谢谢
-######开玩笑的,祝大家都早日通过,免得老板天天催催......!
-###2016年10月换了工作,平时比较忙了,QQ群里大家在互相帮助在..
-#目录:
+###### 开玩笑的,祝大家都早日通过,免得老板天天催催......!
+### 2016年10月换了工作,平时比较忙了,QQ群里大家在互相帮助在..
+# 目录:
 [技巧][app被拒绝了,如何解决,(QQ群问问题之前必看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 
