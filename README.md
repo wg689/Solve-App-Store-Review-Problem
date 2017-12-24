@@ -1,12 +1,7 @@
 # ipv6被拒绝,后台定位被拒绝,免费的终极解决方案,苹果审核被拒绝了如何取解决,大家齐心协力让天下没有解决不了的问题!
 
-
-
-
 文中有不妥的欢迎提issue或者去审核问答群找群主反馈,我会重视每一个意见!
 最近本仓库被广大网友star,每一个star的网友github账号我都看得到,在此表示谢谢!你们的关注和star我会坚持更新!
-
-
 **appstore 审核遇到有问题欢迎给我提issue 或者咨询appstore审核问答群,问问题请复制苹果拒绝英文描述到群,更方便别人帮助解答,<br>** 
 >appstore审核问答群①369250107,500+人,付费一元入群(正因为收费1元,这里无广告,都是真iOS开发,纯讨论审核技术的QQ群),前500人都是免费加入的,后面之所以收费是买了QQ超级会员升级群上限到2000人才收费,审核问答②群467449800(免费入群)
 
@@ -14,17 +9,14 @@
  <img src="Picture/jiaqun_1.png" width="30%">    <img src="Picture/jiaqun2.png" width="30%">
  
  为了给大家升级群上限人数到2000人 需要给马化腾钱的,228元/每年,所以才收1块钱,取之于大家,用之于大家,所以请大家谅解,不想花一块钱的 ,加群467449800(免费入群)
- 
-  <img src="Picture/superpay.png" width="30%"> 
- 
-
 # 敬请右上角Star,你的star是我持续更新的动力,(据说star的人,提交都过了 哈哈哈😃~~~)谢谢
 ###### 开玩笑的,祝大家都早日通过,免得老板天天催催......!
 ### 2016年10月换了工作,平时比较忙了,QQ群里大家在互相帮助在..,特别是付费群里面的技术氛围比较好...(1元入群费都交给马化腾了😁)
 # 目录:
+## 技巧: QQ群问问题 技巧
 [技巧][app被拒绝了,如何解决,(QQ群问问题之前必看,授人以鱼不如授人以渔)))](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/howtosolve.md)<img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
-
+## ipv6 相关 (从菜鸟到ipv6解决入门 需要阅读和实验 本文档三遍 )
 [审核][ipv6 被拒绝最全的拒绝解决方案(QQ群至少有20位ipv6被拒绝了,都是用这个方案解决了)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md) <img src="Picture/small_image/five_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
  - 1.[苹果ipv6被拒绝邮件描述汇总](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/ipv6.md#%E8%8B%B9%E6%9E%9Cipv6%E8%A2%AB%E6%8B%92%E7%BB%9D%E9%82%AE%E4%BB%B6%E6%8F%8F%E8%BF%B0%E6%B1%87%E6%80%BB)
@@ -52,9 +44,12 @@
 
 
 
-[审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)<img src="Picture/small_image/four_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
+
 
 [🖐ipv6] [博主对ipV6的看法](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/my_idear_of_ipv6.md)
+
+## 其他审核问题
+[审核][后台定位被拒绝的终极解决方案(6种情况说明,让天下没有解决不了的后台定位问题)](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/LocationBackground.md)<img src="Picture/small_image/four_stars.png" width=60 height =15><img src="Picture/small_image/recommend.png" width=15 height =15>
 
 [审核][iOS10出来了上传版本需要使用xcode8吗?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
 [审核][什么情况下才需要下载安装xcode8?](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/no_nonsume_decription.md)
@@ -80,7 +75,7 @@
 [审核][注册功能被拒绝原因分析和解决方案,审核认为没必要提前让用户注册](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/purchase_wechatLoginSharePay.md#%E9%97%AE%E9%A2%98%E8%A2%AB%E6%8B%92%E7%BB%9D%E6%B3%A8%E5%86%8C%E5%8A%9F%E8%83%BD)
 
 [审核][有objectionable(反感的讨厌的) and offensive(不愉快的)被拒绝](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/sex_offensive.md)
-
+## 审核奇巧淫技(广泛使用 会被发现,发现概率 小于3% )
 [问题][如何隐藏部分功能](https://github.com/wg689/Solve-App-Store-Review-Problem/blob/master/sex_offensive.md#%E9%97%AE%E9%A2%98%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8F%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD)
 
 
